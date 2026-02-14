@@ -1,0 +1,49 @@
+
+    <!DOCTYPE html>
+    <html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PayKKa 机构余额看板</title>
+        <style>
+            body { font-family: 'Segoe UI', Arial, sans-serif; margin: 40px; background-color: #f5f5f5; color: #333; }
+            .container { max-width: 1200px; margin: auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+            h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 15px; }
+            .update-time { color: #7f8c8d; font-size: 0.95em; margin-bottom: 30px; }
+            .institution { margin-bottom: 35px; }
+            .institution h2 { color: #16a085; background-color: #ecf0f1; padding: 12px 20px; border-radius: 8px; }
+            table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+            th, td { padding: 15px 20px; text-align: left; border-bottom: 1px solid #ddd; }
+            th { background-color: #3498db; color: white; font-weight: 600; }
+            tr:hover { background-color: #f9f9f9; }
+            .balance { font-family: 'Courier New', monospace; font-weight: bold; color: #27ae60; }
+            .footer { margin-top: 40px; text-align: center; font-size: 0.9em; color: #95a5a6; }
+            .alert { background-color: #fff3cd; border: 1px solid #ffeaa7; padding: 15px; border-radius: 8px; margin-top: 20px; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>🏦 PayKKa 合作机构资金余额看板</h1>
+            <div class="update-time">最后更新时间: <strong>2026-02-14 09:26:40</strong> (北京时间)</div>
+            <div class="alert">说明：本页面数据通过自动化脚本定时更新，展示各机构资金账户的实时余额。</div>
+    
+            <div class="institution">
+                <h2>📊 易宝</h2>
+                <table>
+                    <thead><tr><th>币种</th><th>余额</th></tr></thead>
+                    <tbody>
+        <tr><td><strong>USD</strong></td><td class="balance">2,382,956.16</td></tr><tr><td><strong>CNH</strong></td><td class="balance">64,077,532.36</td></tr><tr><td><strong>HKD</strong></td><td class="balance">2,566,189.18</td></tr><tr><td><strong>EUR</strong></td><td class="balance">314,656.39</td></tr><tr><td><strong>GBP</strong></td><td class="balance">17,058.39</td></tr><tr><td><strong>JPY</strong></td><td class="balance">38,233.00</td></tr><tr><td><strong>AUD</strong></td><td class="balance">31,216.13</td></tr><tr><td><strong>CAD</strong></td><td class="balance">61.91</td></tr><tr><td><strong>SGD</strong></td><td class="balance">83,038.30</td></tr></tbody></table></div>
+            <div class="institution">
+                <h2>📊 Currencycloud</h2>
+                <table>
+                    <thead><tr><th>币种</th><th>余额</th></tr></thead>
+                    <tbody>
+        <tr><td><strong>USD</strong></td><td class="balance">1,494,443.65</td></tr><tr><td><strong>CNY</strong></td><td class="balance">1,383,612.66</td></tr><tr><td><strong>HKD</strong></td><td class="balance">126,027.18</td></tr><tr><td><strong>EUR</strong></td><td class="balance">597,626.10</td></tr><tr><td><strong>GBP</strong></td><td class="balance">403,434.63</td></tr><tr><td><strong>JPY</strong></td><td class="balance">3,843,698.00</td></tr><tr><td><strong>AUD</strong></td><td class="balance">43,925.82</td></tr><tr><td><strong>CAD</strong></td><td class="balance">79,089.14</td></tr><tr><td><strong>SGD</strong></td><td class="balance">24,752.49</td></tr><tr><td><strong>HUF</strong></td><td class="balance">1,914,258.00</td></tr><tr><td><strong>RON</strong></td><td class="balance">818,674.08</td></tr><tr><td><strong>CZK</strong></td><td class="balance">4,884,091.48</td></tr><tr><td><strong>PLN</strong></td><td class="balance">180,627.77</td></tr></tbody></table></div>
+            <div class="footer">
+                <p>数据来源: PayKKa 运营平台 | 本页面由自动化工具生成，更新间隔可配置</p>
+                <p>仓库: 13058199807zk-oss/Paykka-K | 如有疑问，请联系相关运维人员。</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    
