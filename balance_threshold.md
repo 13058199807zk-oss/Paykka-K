@@ -4,7 +4,7 @@
 BALANCE_THRESHOLDS = {
     # 机构名必须完全匹配：易宝, Currencycloud, 海云汇
     ("易宝", "USD"): 900000.00,
-    ("易宝", "CNH"): 10000000.00,
+    ("易宝", "CNH"): 1000000.00,
     ("易宝", "HKD"): 10000.00,
     ("Currencycloud", "USD"): 10000.00,
     ("Currencycloud", "EUR"): 1000.00,
