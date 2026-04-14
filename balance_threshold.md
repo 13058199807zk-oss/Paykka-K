@@ -1,5 +1,4 @@
 # PayKKa余额预警阈值配置
-# 格式参考fx_threshold.md的成功实现
 
 BALANCE_THRESHOLDS = {
     # 机构名必须完全匹配：易宝, Currencycloud, 海云汇
