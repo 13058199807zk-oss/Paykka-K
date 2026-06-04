@@ -1,5 +1,5 @@
 # PayKKa余额预警阈值配置
-```json
+```
 BALANCE_THRESHOLDS = {
     # 机构名必须完全匹配：易宝, Currencycloud, 海云汇
     ("易宝", "USD"): 950000.00,
