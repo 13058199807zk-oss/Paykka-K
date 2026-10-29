@@ -8,7 +8,7 @@ BALANCE_THRESHOLDS = {
     ("Currencycloud", "USD"): 100000.00,
     ("Currencycloud", "EUR"): 200000.00,
     ("Currencycloud", "GBP"): 10000.00,
-    ("海云汇", "USD"): 1000.00,
+    ("海云汇", "USD"): 2000.00,
     ("海云汇", "CNH"): 0.00,
     ("海云汇", "HKD"): 1000.00
 }
