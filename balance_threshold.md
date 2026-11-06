@@ -14,5 +14,3 @@ BALANCE_THRESHOLDS = {
 }
 ```
 # 注意：键是元组 (机构名, 币种)，值是阈值金额
-
-<!-- PROBE_90444d0d5b43dd2e : harmless annotation added by authz pentest, will be removed -->
